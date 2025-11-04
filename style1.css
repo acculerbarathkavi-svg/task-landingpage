@@ -1,0 +1,79 @@
+
+.fornt-img{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text-img{
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 50px;
+  font-weight: 300;
+}
+.text-img2{
+    position: absolute;
+  top: 200px;
+  left: 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 50px;
+  font-weight: 300;
+  padding-top: 50px;
+}
+.text-img-P{
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding-top: 80px;
+  
+}
+.text-img-P2{
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding-top: 100px;
+  
+}
+.img-2{
+    background-color: #b49b65;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+}
+.text-img-2{
+   position: absolute;
+  top: 50px;
+  left: 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 50px;
+  font-weight: 200; 
+  color: white;
+}
+.text-img-3{
+    position: absolute;
+  top: 140px;
+  left: 50px;
+}
+.text-img-4{
+    position: absolute;
+  top: 140px;
+  left: 230px;
+  font-size: 20px;
+  font-weight: 100;
+}
+.btn-img-5{
+    position: absolute;
+  top: 200px;
+  left: 230px;
+}
+.text-img-6{
+    position: absolute;
+  top: 60px;
+  left: 700px;
+  border-radius: 3px;
+}
+

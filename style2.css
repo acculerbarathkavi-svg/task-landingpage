@@ -1,0 +1,86 @@
+/* General reset */
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  overflow-x: hidden;
+}
+
+/* ========== HERO SECTION ========== */
+.hero-section {
+  position: relative;
+  color: white;
+}
+
+.hero-img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 8%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+  .hero-img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-text {
+    top: 20%;
+    left: 5%;
+  }
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+}
+.menu-img{
+  width: 50px;
+  height: 45px;
+  display: flex;
+  gap: 70px;
+}
+.date-list{
+  list-style-type: none;
+  text-align: start;
+  color: rgba(255, 255, 255, 0.403);
+}
+.line{
+  border: none;
+  border-left: 1px solid #b49b65;
+  height: 200px;
+  width: 0px;
+  margin: 0px;
+}@media(max-width:576px){
+  hr.line{
+    display: none;
+  }
+
+}
+
+.icons{
+  align-items: center;
+  width: 30px;
+  height: 50px;
+}
+
